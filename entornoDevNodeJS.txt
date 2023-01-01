@@ -1,0 +1,24 @@
+Inicializar entorno NodeJS:
+    npm init -y / npm init
+
+Instalar las dependencias de produción:
+    npm i dotenv express
+
+Instalar las dependencias de desarrollo:
+    npm i eslint prettier nodemon morgan -D
+
+Inicializo eslint:
+    npx eslint --init
+
+Inicializo prettier, .prettierrc.json:
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true
+}
+
+Creo la scrip para arrancar el servidor con nodemon:
+  "dev": "nodemon server.js"
+  Arranco el servidor web con:
+    npm run dev
